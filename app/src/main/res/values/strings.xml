@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE resources [<!ENTITY lat_lon        "Latitude, Longitude"><!ENTITY fixed_position "Fixed Position"><!ENTITY trip           "Trip"><!ENTITY origin         "Origin"><!ENTITY destination    "Destination">]>
+
+<resources>
+    <string name="app_name">GpsSpoof</string>
+
+    <!-- extras -->
+    <string name="MainActivity_extra_current_tab_tag" translatable="false">current_tab_tag</string>
+    <string name="MainActivity_extra_toast" translatable="false">toast</string>
+
+    <string name="MainActivity_tab_1_tag" translatable="false">tag_1</string>
+    <string name="MainActivity_tab_2_tag" translatable="false">tag_2</string>
+
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Simulation</string>
+
+    <!-- tab_1: FixedPositionActivity ====================================== -->
+
+    <string name="FixedPositionActivity_field_1">Location:\n<small>(&lat_lon;)</small></string>
+
+    <!-- buttons -->
+    <string name="label_button_start">اجرا</string>
+    <string name="label_button_stop">توقف</string>
+
+    <!-- shared preferences -->
+    <string name="prefs_filename" translatable="false">PREFS</string>
+    <!-- string (json) -->
+    <string name="pref_bookmarks" translatable="false">bookmarks</string>
+    <!-- int      (ms) -->
+    <string name="pref_time_interval" translatable="false">time_interval</string>
+    <!-- int           -->
+    <string name="pref_fixed_count" translatable="false">fixed_count</string>
+    <!-- boolean       -->
+    <string name="pref_fixed_joystick_enabled" translatable="false">fixed_joystick_enabled</string>
+    <!-- double        -->
+    <string name="pref_fixed_joystick_increment" translatable="false">fixed_joystick_increment</string>
+    <!-- boolean       -->
+    <string name="pref_trip_hold_destination" translatable="false">trip_hold_destination</string>
+    <!-- double        -->
+    <string name="pref_dynamic_origin_lat" translatable="false">dynamic_origin_lat</string>
+    <!-- double        -->
+    <string name="pref_dynamic_origin_lon" translatable="false">dynamic_origin_lon</string>
+    <!-- double        -->
+    <string name="pref_trip_origin_lat" translatable="false">trip_origin_lat</string>
+    <!-- double        -->
+    <string name="pref_trip_origin_lon" translatable="false">trip_origin_lon</string>
+    <!-- double        -->
+    <string name="pref_trip_destination_lat" translatable="false">trip_destination_lat</string>
+    <!-- double        -->
+    <string name="pref_trip_destination_lon" translatable="false">trip_destination_lon</string>
+    <!-- int     (sec) -->
+    <string name="pref_trip_duration" translatable="false">trip_duration</string>
+
+    <!-- notifications -->
+    <string name="notification_service_ticker">موقعیت مکانی تقلبی: در حال اجرا</string>
+    <string name="notification_service_content_line1">موقعیت مکانی تقلبی</string>
+    <string name="notification_service_content_line2">باز کردن نرم افزار</string>
+    <string name="my_location">مکان من</string>
+    <string name="mock_location">موقعیت مکانی تقلبی</string>
+
+
+    <!-- tab_2: TripSimulationActivity ===================================== -->
+
+
+    -
+    <string name="TripSimulationActivity_field_1">
+Origin:\n
+<small>(Latitude, Longitude)</small>
+
+</string>
+
+
+    -
+    <string name="TripSimulationActivity_field_2">
+Destination:\n
+<small>(Latitude, Longitude)</small>
+
+</string>
+
+
+    -
+    <string name="TripSimulationActivity_field_3">
+Duration:\n
+<small>(seconds)</small>
+
+</string>
+
+
+    <string name="label_button_update">UPDATE</string>
+    <string name="select_way_activity_title">انتخاب خدمات</string>
+    <string name="select_origin">انتخاب مبدا</string>
+    <string name="select_destination">انتخاب مقصد</string>
+    <string name="select_duration">انتخاب زمان مورد نیاز</string>
+    <string name="cancel">انصراف</string>
+    <string name="submit">ثبت</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiaGthcmFtaTE4MTEiLCJhIjoiY2ppdDhrdm41MjBuaDNxbWZiaWV5ZGVqMiJ9.MSioDPEf9Kth_eU55RogWQ</string>
+    <string name="trip_duration_message">لطفا زمان رسیدن از مبدا به مقصد را به دقیقه وارد کنید.</string>
+    <string name="fixed_position">نقطه ثابت</string>
+    <string name="fake_trip">سفر ساختگی</string>
+    <string name="dynamic_point">نقطه متحرک</string>
+    <string name="help">راهنمای تنظیم اولیه اپلیکیشن</string>
+    <string name="ok">خب</string>
+    <string name="pinned_text">پیام پین شده</string>
+    <string name="location_service_running">سرویس موقعیت در حال اجرا است. برای توقف آن کلیک کنید.</string>
+    <string name="stop">توقف</string>
+    <string name="stop_service">توقف سرویس</string>
+    <string name="help_1">ابتدا وارد تنظیمات گوشی شوید.</string>
+    <string name="help_2">سپس در قسمت درباره تلفن همراه، به دنبال شماره ساخت یا Build Number بگردید.</string>
+    <string name="help_3">سه بار بصورت پشت سر هم بر روی آن تپ کنید.</string>
+    <string name="help_4">پس از دریافت پیغام \"شما اکنون یک توسعه دهنده هستید\"، مجددا به صفحه تنظیمات برگردید.</string>
+    <string name="help_5">حال انتهای لیست یک گزینه جدید اضافه شده است و نام آن گزینه های برنامه نویس است. بر روی آن تپ کنید.</string>
+    <string name="help_6">به دنبال موقعیت ساختگی بگردید. بر روی آن تپ کنید و این اپلیکیشن را انتخاب کنید.</string>
+    <string name="help_7">کار تمام است. حال می توانید از اپلیکیشن استفاده کنید.</string>
+    <string name="notice">توجه</string>
+    <string name="you_have_not_enabled_developer_options">تنظیمات دستگاه شما نشان می دهد که شما یک توسعه دهنده نیستید. لطفا اینجا تپ کنید تا به تنظیمات توسعه دهنده بروید.</string>
+    <string name="select_this_app_as_your_mock_location_app">در تنظیمات دستگاه شما، این اپلیکیشن به عنوان اپلیکیشن موقعیت ساختگی انتخاب نشده است. لطفا اینجا تپ کنید و تنظیمات مورد نیاز را انجام دهید.</string>
+    <string name="go_to_settings">رفتن به تنظیمات</string>
+    <string name="settings">تنظیمات</string>
+    <string name="radius_of_border">شعاع محدوده حرکت (متر)</string>
+    <string name="permission_granted">دسترسی داده شد.</string>
+    <string name="number_of_trip_times_per_day">تعداد سفرها به ازای هر روز</string>
+    <string name="movement_speed">سرعت حرکت (کیلومتر)</string>
+    <string name="movement_speed_message">سرعت راه رفتن حدود 4.9 کیلومتر در ساعت است.</string>
+    <string name="dynamic_position">نقطه متحرک</string>
+    <string name="trip_simulation">سفر ساختگی</string>
+    <string name="turn_off_gps">در هنگام استفاده از سرویس، بهتر است سرویس موقعیت یاب دستگاه شما خاموش باشد. لطفا سرویس جی پی اس را خاموش کنید.</string>
+</resources>
