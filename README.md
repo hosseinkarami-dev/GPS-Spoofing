@@ -48,7 +48,7 @@ An Android application for mocking GPS location using the built-in **Mock Locati
 
 ## 📄 License
 
-APACHE License – free for personal and educational use.
+Apache License – free for personal and educational use.
 
 ## 🤝 Contributions
 
