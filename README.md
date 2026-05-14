@@ -1,4 +1,4 @@
-# 📍 GPS Spoofing App
+# 📍 MockLocationProvider App
 
 An Android application for mocking GPS location using the built-in **Mock Location** feature in Developer Options. The app allows users to simulate any geographic location on their device.
 
